@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000; /* black background */
+  color: #fff;
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  background-color: #000;
+}
+
+.map-container {
+  flex: 1;
+  margin-right: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #222;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form h2 {
+  color: #00ffe0; /* Teal text */
+  margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00ffe0;
+}
+
+.send-button {
+  align-self: flex-start;
+  background-color: transparent;
+  color: #ffb347;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-button:hover {
+  color: #fff;
+}
